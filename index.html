@@ -40,7 +40,32 @@
       </nav>
 
       <div class="container">
-        <!-- Content here -->
+        <div class="row">
+          <div class="col-sm"><h1>Summary: Latitude vs. X</h1></div>
+          
+          <div class="col-sm"><div><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" class="rounded float-start" style="width: 250px; float: left; padding-right: 20px;"></div><p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+            </div>
+          <div class="col-sm"><p>After assembling the dataset, we used Maplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:</p>
+            <ul>
+                <li>Temperature</li>
+                <li>Cloudiness</li>
+                <li>Wind Speed</li>
+                <li>Humidity</li>
+            </ul>
+            <p>This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><h2>Visualizations</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"><div style="padding: 20px;"><a href="MaxTemp.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature"></a></div></div>
+          <div class="col-md-4"><div style="padding: 20px;"></div><a href="Humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity"></a></div></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"><div style="padding: 20px;"></div><a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a></div></div>
+          <div class="col-md-4"><div style="padding: 20px;"></div><a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed"></a></div></div>
+        </div>
       </div>
       
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
